@@ -1,0 +1,24 @@
+{
+  "type": "VerticalLayout",
+  "elements": [
+    {
+      "type": "Control",
+      "scope": "#/properties/Nom"
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/Tableau",
+      "options": {
+        "autocomplete": true
+      }
+    },
+
+    {
+      "type": "Control",
+      "scope": "#/properties/Pourcentage",
+      "options": {
+        "readonly": true
+      }
+    }
+  ]
+}

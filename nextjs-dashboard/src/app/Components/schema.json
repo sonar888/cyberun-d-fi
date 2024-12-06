@@ -1,0 +1,39 @@
+{
+  "type": "object",
+  "properties": {
+    "Nom": {
+      "type": "string",
+      "minLength": 1
+    },
+    "Tableau": {
+      "type" : "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "Pays": {
+            "type": "string",
+            "minLength": 1,
+            "enum": [
+              "foo",
+              "bar",
+              "foobar"
+            ]
+          },
+          "Pourcentage": {
+            "type": "string",
+            "maxLength": 5,
+            "enum": [
+              "foo",
+              "bar",
+              "foobar"
+            ]
+          }
+        }
+      }
+
+
+    }
+  },
+  "required": ["name"]
+}
+
