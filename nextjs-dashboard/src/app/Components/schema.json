@@ -14,19 +14,15 @@
             "type": "string",
             "minLength": 1,
             "enum": [
-              "foo",
-              "bar",
-              "foobar"
+              "France",
+              "Belgique",
+              "Allemagne",
+              "Inconnu"
             ]
           },
           "Pourcentage": {
-            "type": "string",
-            "maxLength": 5,
-            "enum": [
-              "foo",
-              "bar",
-              "foobar"
-            ]
+            "type": "string"
+           
           }
         }
       }
@@ -34,6 +30,17 @@
 
     }
   },
-  "required": ["name"]
+  "required": ["Name"]
 }
 
+
+
+
+
+
+
+
+
+
+
+ 

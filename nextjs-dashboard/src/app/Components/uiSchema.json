@@ -5,20 +5,39 @@
       "type": "Control",
       "scope": "#/properties/Nom"
     },
+  
     {
       "type": "Control",
       "scope": "#/properties/Tableau",
+      
       "options": {
-        "autocomplete": true
-      }
-    },
+        "detail": {
+          "type": "HorizontalLayout",
+          "elements": [
+            {
+              "type": "Control",
+              "scope": "#/properties/Pays",
+              "options": {
+                "autocomplete": true,
+                "detail":"DEFAULT"
+              }
+            },
+            {
+              "type": "Control",
+              "scope": "#/properties/Pourcentage",
+              "options": {
+                "readOnly": true,
+                "detail":"DEFAULT"
+              }
+            }
+          ]
+        }
+	}
+        
 
-    {
-      "type": "Control",
-      "scope": "#/properties/Pourcentage",
-      "options": {
-        "readonly": true
-      }
+      
     }
+
+    
   ]
 }

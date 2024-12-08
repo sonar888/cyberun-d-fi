@@ -23,6 +23,6 @@ import Form from "./Components/Form";
 export default function Home() {
   // const [data, setData] = useState({});
   return (
-    <Form></Form>
+    <Form/>
   );
 }
